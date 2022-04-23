@@ -1,0 +1,223 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+}
+
+
+/* HEADER */
+.header-logo{
+    position: relative;
+    right: 339px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction:row-reverse;
+}
+.header-menu{
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 5px 300px;    
+    background-size: 1477px;
+}
+.header-menu-link{
+
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: white; 
+    background-size: 1477px;    
+}
+/* Color de texto header */
+ul,li,a{
+    color: black
+}
+/* fondo blando de header */
+.bg-color-03{
+    background-color: white;
+
+}
+/* HEADER */
+
+
+/* texto de separador de seccion */
+h2{
+    font-size: 26px;
+    color: white;
+    text-align:center;
+    padding: 0px;
+    margin: 3px;
+    position: relative;
+    right: 900px;
+
+}
+/* separadores de secciones */
+/* CONTENEDOR BIEN NO SE MUEVE */
+.container-04{
+    position: relative;
+    top:50px;
+}
+
+
+/* CONTENEDOR DE NEW Y ABOUT */
+.container-02{
+    height: 1005px;
+}
+/* CONTENEDOR DE NEW Y ABOUT */
+
+
+/* SECCION NEW */
+/* Texto de refuerzo1 */
+.bgi-01{
+    background-image: url(../images/seccionnew.png);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: 2098px;
+    margin: 18px 0px;
+}
+h5{
+    font-size: 16px;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal;
+    text-align: right;
+    position: relative;
+    right: 500px;
+    top: 453px;
+}
+/* texto dentro de caja download */
+h4{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 438px;
+    right: 452px;
+    text-align: right;
+}
+/* contenedor de caja download */
+.container-03{
+    position: relative;
+    top: 351px;
+    right: -1350px;
+}
+/* texto de refuerzo2 */
+h6{
+    font-size: 20px;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal;
+    text-align: right;
+    position: relative;
+    right: 534px;
+    top: 304px;
+}
+/* SECCION NEW */
+
+
+/* SECCION ABOUT */
+/* Parrafo de seccion about */
+.flexbox{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    position:relative;
+
+}
+p{
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    position: relative;
+    right: 816px;
+    top: 203px;
+
+
+}
+ /* caja donde va el parrafo */
+ .container-05{
+    width: 705px;
+    height: 470px;
+    position: relative;
+    top: 203px;
+    right:174px;
+  
+}
+.bgi-02{
+    background-image: url(../images/seccionabout.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 2098px;
+    margin: 18px 0px;
+}
+ /* SECCION ABOUT */
+
+
+ /* SECCION ALBUMS */
+/* color de fondo */
+.bgi-03{
+    background-image: url(../images/seccionalbums.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 2098px;
+    margin: 18px 0px;
+}
+.container{
+    width: 770px;
+    height: 733px;
+
+    align-items: flex-start;
+}
+h3{
+    font-size: 16px;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-weight:lighter;
+}
+ 
+/* SECCION ALBUMS */
+
+
+/* SECCION COLLABS */
+/* color de fondo */
+.bg-color-01{
+    background-color: #01010D;
+}
+/* SECCION COLLABS */
+
+
+/* SECCION SHOP */
+/* fondo de seccion */
+.bgi-05{
+    background-image: url(../images/seccionshop.png);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: 2098px;
+    margin: 18px 0px;
+}
+/* Textos debajo de la merch */
+h1{
+    font-size: 16px;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal;
+}
+/* SECCION SHOP */
+
+
+/* SECCION SUSCRIBE */
+/* color de fondo */
+.bg-color-02{
+    background-color: #180027;
+}
+/* tamaño de la seccion */
+.container-08{
+    height: 660px;
+}
+/* SECCION SUSCRIBE */
+
